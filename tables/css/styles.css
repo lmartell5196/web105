@@ -1,0 +1,42 @@
+body{
+    background: rgb(252, 236, 206);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    border: 10px solid rgb(94, 14, 3);
+    padding: 20px;
+    width: 100%;
+  }
+
+h1{
+    color: rgb(94, 14, 3);
+    text-align: center;
+}
+
+h2, h3{
+    color: rgb(94, 14, 3);
+    text-align: center;
+}
+
+nav {
+    text-align: center; 
+  }
+
+nav a{
+    font-size: larger;
+    color: rgb(94, 14, 3);
+    padding: 10px 20px;
+    background-color: #eecbd8;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius:10px;
+    border: 2px solid rgb(40,0,10);
+    text-align: center;
+}
+
+nav a:hover{
+    color: #ac8faa;
+    background: rgb(94, 14, 3);
+}

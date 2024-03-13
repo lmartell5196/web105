@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Styling Tables</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    table,
+      th,
+      td {
+        border: 2px solid darkred;
+        padding: 5px;
+      }
+
+      th {
+        border:2px solid darkred;
+        color: darkred;
+        background-color: pink;
+      }
+
+      tr:hover{
+        background: beige;
+      }
+
+      td:hover{
+        background: white;
+      }
+
+      td{
+        text-align: center;
+        height: 50px;
+      }
+
+       table {
+          margin: 20px auto;
+          width: 95%;
+          border: 4px solid rgb(94, 14, 3);
+          border-collapse: collapse;
+      }
+  </style>
+</head>
+<body>
+<div id="container">
+  <h1>Tables</h1>
+  <nav>
+    <a href="index.html">Table Basics</a>
+    <a href="styling-tables.html">Styling Tables</a>
+    <a href="calendar.html">Creating a Calendar</a>
+  </nav>
+
+  <h2>Styling Tables</h2>
+  <!--Table Start-->
+  <table>
+    <tr>
+      <th></th>
+      <th>Sunday</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+    <tr>
+      <th>7:00 am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>8:00 am</th>
+      <td></td>
+      <td rowspan="2">Speech Class</td>
+      <td></td>
+      <td></td>
+      <td rowspan="2">Seminar</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9:00 am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10:00 am</th>
+      <td></td>
+      <td></td>
+      <td rowspan="6">Work</td>
+      <td rowspan="6">Work</td>
+      <td rowspan="2">Musical</td>
+      <td rowspan="6">Work</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11:00 am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12:00 pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>1:00 pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2:00 pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3:00 pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4:00 pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
